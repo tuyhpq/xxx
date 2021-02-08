@@ -55,7 +55,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0 text-uppercase">{{ $route.meta.title }}</h1>
           </div>
         </div>
       </div>
@@ -88,6 +88,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+@import '~@/assets/scss/common';
+
 #app {
   font-family: Helvetica, Arial, sans-serif;
 }
